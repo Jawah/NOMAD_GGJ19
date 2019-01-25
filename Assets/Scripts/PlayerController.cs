@@ -10,7 +10,19 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
 
+    public int playerId;
+
     [SerializeField] private float moveSpeed;
+
+    private void OnEnable()
+    {
+        
+    }
+
+    private void OnDisable()
+    {
+        
+    }
 
     private void Awake()
     {
