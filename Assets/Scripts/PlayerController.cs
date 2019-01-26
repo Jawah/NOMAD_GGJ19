@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] Renderer cloth1;
-    [SerializeField] Renderer cloth2;
-    [SerializeField] Renderer cloth3;
+    //[SerializeField] Renderer cloth1;
+    //[SerializeField] Renderer cloth2;
+    //[SerializeField] Renderer cloth3;
 
     private Rigidbody rb;
 
@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     private float horizontalValue;
     private float verticalValue;
+
+    private bool bridgeCollision = false;
     
     private void Awake()
     {
@@ -24,9 +26,9 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        cloth1.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-        cloth2.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-        cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        //cloth1.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        //cloth2.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        //cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
     }
 
     public void MovePlayer(float x, float y)
@@ -63,21 +65,43 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag(Tags.DEATH_AREA))
         {
-            // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
             Debug.Log(playerId);
-            GameManager.Instance.airConsoleLogic.SendMessageToController(
-            playerId,
-            "Dead"
-            );
+            if(GameManager.Instance.airConsoleLogic != null)
+            {
+                // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
+                GameManager.Instance.airConsoleLogic.SendMessageToController(
+                playerId,
+                "Dead"
+                );
+            }
             gameObject.SetActive(false);
         }
         else if (other.CompareTag(Tags.WIN_AREA))
         {
-            // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
-            GameManager.Instance.airConsoleLogic.SendMessageToController(
-            playerId,
-            "Win"
-            );
+            if (GameManager.Instance.airConsoleLogic != null)
+            {
+                // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
+                GameManager.Instance.airConsoleLogic.SendMessageToController(
+                playerId,
+                "Win"
+                );
+            }
         }
+        else if (other.CompareTag(Tags.BRIDGE))
+        {
+            if (!bridgeCollision)
+            {
+                other.gameObject.GetComponent<Bridge>().DecreaseCount();
+                bridgeCollision = true;
+            }
+
+            StartCoroutine(CollisionTimer());
+        }
+    }
+
+    IEnumerator CollisionTimer()
+    {
+        yield return new WaitForSeconds(2f);
+        bridgeCollision = false;
     }
 }

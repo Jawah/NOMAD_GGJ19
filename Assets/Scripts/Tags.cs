@@ -4,4 +4,5 @@
     public static string DEATH_AREA = "DeathArea";
     public static string WIN_AREA = "WinArea";
     public static string PLAYER = "Player";
+    public static string BRIDGE = "Bridge";
 }
