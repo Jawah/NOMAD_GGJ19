@@ -22,15 +22,16 @@
         */
 
         me.airconsole.onConnect = function (data) {
-            //console.log("onConnect", data);
             document.getElementById("skr").innerHTML = "My ID is: " + (data + 1).toString();
-            //document.getElementById("cover").innerHTML = "Hello";
         }
 
         me.airconsole.onMessage = function(from, data) {
             if (data == "Dead") {
                 console.log("onMessage", from, data);
-                document.getElementById("cover").innerHTML = "device " + from + " says: " + data;
+                document.getElementById("cover").innerHTML = "<div style='text-align: center; vertical-align: middle;'>'You got lost!'</div>";
+            }
+            if (data == "Win") {
+                document.getElementById("cover").innerHTML = "You found home!"
             }
         };
 
