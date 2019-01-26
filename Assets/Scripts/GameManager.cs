@@ -6,6 +6,8 @@ using Newtonsoft.Json.Linq;
 
 public class GameManager : MonoBehaviour
 {
+    public AirConsoleLogic airConsoleLogic;
+
     // Singleton GameManager Instance
     private static GameManager _instance;
     public static GameManager Instance { get { return _instance; } }
@@ -20,6 +22,8 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
+
+        airConsoleLogic = GameObject.FindGameObjectWithTag(Tags.AIR_CONSOLE_LOGIC).GetComponent<AirConsoleLogic>();
     }
 
 }
