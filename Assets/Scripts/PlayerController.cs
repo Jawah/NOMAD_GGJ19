@@ -42,6 +42,8 @@ public class PlayerController : MonoBehaviour
         float inputX = Input.GetAxis("Horizontal");
         float inputZ = Input.GetAxis("Vertical");
 
+        rb.AddForce(Physics.gravity * 2, ForceMode.Acceleration);
+
         if(inputX != 0|| inputZ != 0)
         {
             float y = rb.velocity.y;
