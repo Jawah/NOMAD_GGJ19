@@ -789,6 +789,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &426711658 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 57faadcf4d0e7af48994376f86d6f61d,
+    type: 3}
+  m_PrefabInstance: {fileID: 911235787}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &442034208
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,6 +3589,11 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 9135823540733848401, guid: ad85bd9239bbf0c459448c5c87c45bb2,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 426711658}
     - target: {fileID: 3816778585450749131, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
       propertyPath: m_Drag

@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     //[SerializeField] Renderer cloth2;
     //[SerializeField] Renderer cloth3;
 
+    public Animator anim;
+    
     private Rigidbody rb;
 
     public int playerId;
@@ -18,14 +20,14 @@ public class PlayerController : MonoBehaviour
     private float verticalValue;
 
     private bool bridgeCollision = false;
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
 
     private void Start()
-    {
+    {        
         //cloth1.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         //cloth2.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         //cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
@@ -46,11 +48,17 @@ public class PlayerController : MonoBehaviour
 
         if(inputX != 0 || inputZ != 0)
         {
+            anim.SetBool("fast", true);
+            
             float y = rb.velocity.y;
 
             rb.velocity = new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed);
             
             transform.rotation = Quaternion.LookRotation(new Vector3(inputX, 0f, inputZ));
+        }
+        else
+        {
+            anim.SetBool("fast", false);
         }
         
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
