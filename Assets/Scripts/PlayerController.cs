@@ -50,8 +50,11 @@ public class PlayerController : MonoBehaviour
 
             rb.velocity = new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed);
 
-            transform.LookAt(transform.position + new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed));
+            //transform.LookAt(transform.position + new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed));
+            transform.rotation = Quaternion.LookRotation(new Vector3(inputX, 0f, inputZ));
         }
+
+        /*
 
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
 
@@ -60,7 +63,9 @@ public class PlayerController : MonoBehaviour
             rb.velocity = moveDirection * moveSpeed;
         }
 
-        transform.LookAt(transform.position + moveDirection);
+    */
+
+        //transform.LookAt(new Vector3(0f, transform.position.y, 0f) + new Vector3(0f, transform.position.y, 0f));
     }
 
     private void OnTriggerEnter(Collider other)
