@@ -27,6 +27,11 @@ public class AirConsoleLogic : MonoBehaviour
         AddNewPlayer(device_id);
         currentPlayers++;
         SendMessageToController(device_id, "Connected");
+
+        if(currentPlayers == 10)
+        {
+            GameManager.Instance.StartGame();
+        }
     }
 
     void OnReady(string code)

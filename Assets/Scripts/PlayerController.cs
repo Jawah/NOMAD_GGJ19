@@ -67,9 +67,9 @@ public class PlayerController : MonoBehaviour
         {
             float y = rb.velocity.y;
 
-            rb.velocity = new Vector3(verticalValue * moveSpeed, y, horizontalValue * moveSpeed);
+            rb.velocity = new Vector3(horizontalValue * moveSpeed, y, verticalValue * moveSpeed);
 
-            transform.rotation = Quaternion.LookRotation(new Vector3(verticalValue, 0f, horizontalValue));
+            transform.rotation = Quaternion.LookRotation(new Vector3(horizontalValue, 0f, verticalValue));
         }
     }
 

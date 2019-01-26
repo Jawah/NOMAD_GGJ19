@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TileMover : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     
     private void FixedUpdate()
     {

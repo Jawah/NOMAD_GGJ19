@@ -26,4 +26,8 @@ public class GameManager : MonoBehaviour
         airConsoleLogic = GameObject.FindGameObjectWithTag(Tags.AIR_CONSOLE_LOGIC).GetComponent<AirConsoleLogic>();
     }
 
+    public void StartGame()
+    {
+        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.15f;
+    }
 }
