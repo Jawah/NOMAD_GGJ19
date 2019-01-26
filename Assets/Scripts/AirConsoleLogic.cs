@@ -12,6 +12,8 @@ public class AirConsoleLogic : MonoBehaviour
     
     public Dictionary<int, PlayerController> players = new Dictionary<int, PlayerController>();
 
+    public int neededPlayersForStart;
+
     private void Awake()
     {
         if (AirConsole.instance != null)
@@ -28,7 +30,7 @@ public class AirConsoleLogic : MonoBehaviour
         currentPlayers++;
         SendMessageToController(device_id, "Connected");
 
-        if(currentPlayers == 10)
+        if(currentPlayers == neededPlayersForStart)
         {
             GameManager.Instance.StartGame();
         }
