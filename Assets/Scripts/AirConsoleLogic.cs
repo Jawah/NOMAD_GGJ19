@@ -85,6 +85,7 @@ public class AirConsoleLogic : MonoBehaviour
         //Never hardcode device IDs!
         //int idOfFirstController = AirConsole.instance.GetControllerDeviceIds()[0];
 
+        Debug.Log(deviceId);
         AirConsole.instance.Message(deviceId, "Hey there, " + deviceId + " controller!");
         
     }

@@ -52,7 +52,7 @@
      */
     function App() {
       var me = this;
-      me.airconsole = new AirConsole({"orientation": "portrait", "synchronize_time" : "true"});
+      me.airconsole = new AirConsole({"orientation": "landscape", "synchronize_time" : "true"});
       me.airconsole.onMessage = function(from, data) {
         console.log("onMessage", from, data);
         document.getElementById("content").innerHTML = "device " + from + " says: " + data;
