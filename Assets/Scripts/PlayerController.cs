@@ -51,22 +51,19 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag(Tags.DEATH_AREA))
         {
+            Debug.Log(playerId);
+            GameManager.Instance.airConsoleLogic.SendMessageToController(
+            playerId,
+            "Dead"
+            );
             gameObject.SetActive(false);
         }
         else if (other.CompareTag(Tags.WIN_AREA))
         {
             GameManager.Instance.airConsoleLogic.SendMessageToController(
-            GameManager.Instance.airConsoleLogic.GetDeviceID(),
+            playerId,
             "You win!"
             );
         }
-    }
-
-    private void OnDisable()
-    {
-        GameManager.Instance.airConsoleLogic.SendMessageToController(
-            GameManager.Instance.airConsoleLogic.GetDeviceID(),
-            "You died!"
-            );
     }
 }

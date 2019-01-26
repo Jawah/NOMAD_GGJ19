@@ -23,16 +23,16 @@
 
         me.airconsole.onConnect = function (data) {
             //console.log("onConnect", data);
-            //document.getElementById("skr").innerHTML = "My ID is: " + data;
-            document.getElementById("cover").innerHTML = "Hello";
+            document.getElementById("skr").innerHTML = "My ID is: " + (data + 1).toString();
+            //document.getElementById("cover").innerHTML = "Hello";
         }
 
-        /*
         me.airconsole.onMessage = function(from, data) {
-            console.log("onMessage", from, data);
-            document.getElementById("cover").innerHTML = "";
+            if (data == "Dead") {
+                console.log("onMessage", from, data);
+                document.getElementById("cover").innerHTML = "device " + from + " says: " + data;
+            }
         };
-        */
 
     }
 </script>
