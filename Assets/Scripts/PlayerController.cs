@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.airConsoleLogic.SendMessageToController(
             playerId,
-            "You win!"
+            "Win"
             );
         }
     }
