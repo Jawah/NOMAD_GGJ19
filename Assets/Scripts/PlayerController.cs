@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     //[SerializeField] Renderer cloth2;
     //[SerializeField] Renderer cloth3;
 
+    public GameObject deathAnim;
+    public GameObject spawnAnim;
+
     public Animator anim;
     
     private Rigidbody rb;
@@ -27,7 +30,8 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Start()
-    {        
+    {       
+        spawnAnim.SetActive(true);
         //cloth1.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         //cloth2.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         //cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
@@ -92,6 +96,7 @@ public class PlayerController : MonoBehaviour
                 "Dead"
                 );
             }
+            deathAnim.SetActive(true);
             gameObject.SetActive(false);
         }
         else if (other.CompareTag(Tags.WIN_AREA))
