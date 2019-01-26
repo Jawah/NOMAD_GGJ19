@@ -13,14 +13,7 @@
      */
     function App() {
         var me = this;
-        var data;
         me.airconsole = new AirConsole({"orientation": "landscape", "synchronize_time" : "true"});
-        /*
-        me.airconsole.onMessage = function(from, data) {
-            console.log("onMessage", from, data);
-            document.getElementById("content").innerHTML = "device " + from + " says: " + data;
-        };
-        */
 
         /*
         me.airconsole.onReady = function(code) {
@@ -28,34 +21,45 @@
         };
         */
 
-
-
         me.airconsole.onConnect = function (data) {
-            console.log("onConnect", data);
+            //console.log("onConnect", data);
             document.getElementById("skr").innerHTML = "My ID is: " + data;
+            //document.getElementById("cover").innerHTML = "Hello";
         }
+
+        /*
+        me.airconsole.onMessage = function(from, data) {
+            console.log("onMessage", from, data);
+            document.getElementById("cover").innerHTML = "";
+        };
+        */
+
     }
 </script>
 
 <body onload="window.app = new App()">
 
-<div class="gamepad_container">
-    <div id="left" class="left"></div>
-    <div id="middle" class="middle"></div>
-    <div id="right" class="right"></div>
-</div>
+<div id="cover">
 
-
-<div style="display: none;">
-    <div id="template-Joystick" class="joystick">
-        <div class="joystick-relative">
-            <div class="joystick-relative-stick"></div>
+        <div class="gamepad_container">
+            <div id="left" class="left"></div>
+            <div id="middle" class="middle"></div>
+            <div id="right" class="right"></div>
         </div>
-    </div>
 
-    <div id="template-SwipeAnalog">
-        <div class="button-text" id="skr">You are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYou</div>
-    </div>
+
+        <div style="display: none;">
+            <div id="template-Joystick" class="joystick">
+                <div class="joystick-relative">
+                    <div class="joystick-relative-stick"></div>
+                </div>
+            </div>
+
+            <div id="template-SwipeAnalog">
+                <div class="button-text" id="skr">You are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYou</div>
+            </div>
+        </div>
+
 </div>
 
 <script type="text/javascript" src="http://www.airconsole.com/api/airconsole-1.3.0.js"></script>
