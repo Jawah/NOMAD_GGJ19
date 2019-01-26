@@ -44,23 +44,25 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(Physics.gravity * 2, ForceMode.Acceleration);
 
-        if(inputX != 0|| inputZ != 0)
+        if(inputX != 0 || inputZ != 0)
         {
             float y = rb.velocity.y;
 
             rb.velocity = new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed);
-
-            transform.LookAt(transform.position + new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed));
+            
+            transform.rotation = Quaternion.LookRotation(new Vector3(inputX, 0f, inputZ));
         }
-
+        
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
 
         if (verticalValue != 0 || horizontalValue != 0)
         {
-            rb.velocity = moveDirection * moveSpeed;
-        }
+            float y = rb.velocity.y;
 
-        transform.LookAt(transform.position + moveDirection);
+            rb.velocity = new Vector3(verticalValue * moveSpeed, y, horizontalValue * moveSpeed);
+
+            transform.rotation = Quaternion.LookRotation(new Vector3(verticalValue, 0f, horizontalValue));
+        }
     }
 
     private void OnTriggerEnter(Collider other)
