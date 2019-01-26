@@ -8,6 +8,8 @@ public class AirConsoleLogic : MonoBehaviour
 {
     public GameObject playerPrefab;
 
+    public int currentPlayers;
+    
     public Dictionary<int, PlayerController> players = new Dictionary<int, PlayerController>();
 
     private void Awake()
@@ -23,6 +25,7 @@ public class AirConsoleLogic : MonoBehaviour
     void OnConnect(int device_id)
     {
         AddNewPlayer(device_id);
+        currentPlayers++;
         SendMessageToController(device_id, "Connected");
     }
 
