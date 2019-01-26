@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.CompareTag(Tags.DEATH_AREA))
         {
+            // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
             Debug.Log(playerId);
             GameManager.Instance.airConsoleLogic.SendMessageToController(
             playerId,
@@ -60,6 +61,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (other.CompareTag(Tags.WIN_AREA))
         {
+            // GameManager.Instance.airConsoleLogic.Message(playerId, { vibrate: 1000 });
             GameManager.Instance.airConsoleLogic.SendMessageToController(
             playerId,
             "Win"
