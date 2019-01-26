@@ -65,11 +65,17 @@ public class PlayerController : MonoBehaviour
 
         if (verticalValue != 0 || horizontalValue != 0)
         {
+            anim.SetBool("fast", true);
+            
             float y = rb.velocity.y;
 
             rb.velocity = new Vector3(horizontalValue * moveSpeed, y, verticalValue * moveSpeed);
 
             transform.rotation = Quaternion.LookRotation(new Vector3(horizontalValue, 0f, verticalValue));
+        }
+        else
+        {
+            anim.SetBool("fast", false);
         }
     }
 
