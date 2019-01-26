@@ -140,8 +140,6 @@ MonoBehaviour:
   cloth2: {fileID: 5801850661671716255}
   cloth3: {fileID: 2693141528273511524}
   playerId: 0
-  horizontalValue: 0
-  verticalValue: 0
   moveSpeed: 10
 --- !u!54 &3816778585450749131
 Rigidbody:
