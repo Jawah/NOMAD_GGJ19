@@ -5,7 +5,39 @@
     <link rel="stylesheet" href="airconsole-controls/joystick/joystick.css">
     <link rel="stylesheet" href="airconsole-controls/ctrl-generator/controller.css">
 </head>
-<body>
+
+<script type="text/javascript">
+    var airconsole;
+    /**
+     * Sets up the communication to the screen.
+     */
+    function App() {
+        var me = this;
+        var data;
+        me.airconsole = new AirConsole({"orientation": "landscape", "synchronize_time" : "true"});
+        /*
+        me.airconsole.onMessage = function(from, data) {
+            console.log("onMessage", from, data);
+            document.getElementById("content").innerHTML = "device " + from + " says: " + data;
+        };
+        */
+
+        /*
+        me.airconsole.onReady = function(code) {
+            console.log("onReady", code);
+        };
+        */
+
+
+
+        me.airconsole.onConnect = function (data) {
+            console.log("onConnect", data);
+            document.getElementById("skr").innerHTML = "My ID is: " + data;
+        }
+    }
+</script>
+
+<body onload="window.app = new App()">
 
 <div class="gamepad_container">
     <div id="left" class="left"></div>
@@ -22,7 +54,7 @@
     </div>
 
     <div id="template-SwipeAnalog">
-        <div class="button-text">You are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYou</div>
+        <div class="button-text" id="skr">You are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYouYou are Nomad Yellow/BlueYou</div>
     </div>
 </div>
 

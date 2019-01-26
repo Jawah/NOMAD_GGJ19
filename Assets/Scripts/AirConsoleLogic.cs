@@ -79,7 +79,6 @@ public class AirConsoleLogic : MonoBehaviour
     public void SendMessageToController(int deviceId, string message)
     {
         AirConsole.instance.Message(deviceId, message);
-        
     }
 
     public void BroadcastMessageToAllDevices()
