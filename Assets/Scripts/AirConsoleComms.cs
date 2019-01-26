@@ -16,16 +16,13 @@ public class AirConsoleComms : MonoBehaviour
         // Debug.Log("Message from: " + fromDeviceID + ", data: " + data);
 
         if (data["joystick-right"] == null) return;
-        if (data["joystick-right"]["message"]["x"] != null)
+        if (data["joystick-right"]["message"]["x"] != null || data["joystick-right"]["message"]["y"] != null)
         {
             Debug.Log(data["joystick-right"]["message"]["x"].ToString());
-        }
-        if (data["joystick-right"]["message"]["y"] != null)
-        {
             Debug.Log(data["joystick-right"]["message"]["y"].ToString());
         }
     }
-
+    
     private void OnDestroy()
     {
         if (AirConsole.instance != null)

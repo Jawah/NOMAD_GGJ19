@@ -12,18 +12,11 @@ public class PlayerController : MonoBehaviour
 
     public int playerId;
 
+    public float horizontalValue;
+    public float verticalValue;
+
     [SerializeField] private float moveSpeed;
-
-    private void OnEnable()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        
-    }
-
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -36,10 +29,16 @@ public class PlayerController : MonoBehaviour
         cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
     }
 
+    public void MovePlayer(float x, float y)
+    {
+        horizontalValue = x;
+        verticalValue = y;
+    }
+
     private void FixedUpdate()
     {
-        float horizontalValue = Input.GetAxis("Horizontal");
-        float verticalValue = Input.GetAxis("Vertical");
+        //float horizontalValue = Input.GetAxis("Horizontal");
+        //float verticalValue = Input.GetAxis("Vertical");
 
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
 
