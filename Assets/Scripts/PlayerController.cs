@@ -12,10 +12,10 @@ public class PlayerController : MonoBehaviour
 
     public int playerId;
 
-    public float horizontalValue;
-    public float verticalValue;
-
     [SerializeField] private float moveSpeed;
+
+    private float horizontalValue;
+    private float verticalValue;
     
     private void Awake()
     {
@@ -31,15 +31,12 @@ public class PlayerController : MonoBehaviour
 
     public void MovePlayer(float x, float y)
     {
-        horizontalValue = x;
-        verticalValue = y;
+            horizontalValue = x;
+            verticalValue = -y;
     }
 
     private void FixedUpdate()
     {
-        //float horizontalValue = Input.GetAxis("Horizontal");
-        //float verticalValue = Input.GetAxis("Vertical");
-
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
 
         if (verticalValue != 0 || horizontalValue != 0)
