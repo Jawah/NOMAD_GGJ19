@@ -20,7 +20,7 @@ public class AirConsoleLogic : MonoBehaviour
     void OnConnect(int device_id)
     {
         AddNewPlayer(device_id);
-        SendMessageToController(device_id);
+        SendMessageToController(device_id, "Connected");
     }
 
     void OnReady(string code)
@@ -76,16 +76,9 @@ public class AirConsoleLogic : MonoBehaviour
         }
     }
 
-    public void SendMessageToController(int deviceId)
+    public void SendMessageToController(int deviceId, string message)
     {
-        //Say Hi to the first controller in the GetControllerDeviceIds List.
-
-        //We cannot assume that the first controller's device ID is '1', because device 1 
-        //might have left and now the first controller in the list has a different ID.
-        //Never hardcode device IDs!
-        //int idOfFirstController = AirConsole.instance.GetControllerDeviceIds()[0];
-
-        AirConsole.instance.Message(deviceId, "Hey there, " + deviceId + " controller!");
+        AirConsole.instance.Message(deviceId, message);
         
     }
 
@@ -93,5 +86,11 @@ public class AirConsoleLogic : MonoBehaviour
     {
         AirConsole.instance.Broadcast("Hey everyone!");
         //logWindow.text = logWindow.text.Insert(0, "Broadcast a message. \n \n");
+    }
+
+    public int GetDeviceID()
+    {
+        int device_id = AirConsole.instance.GetDeviceId();
+        return device_id;
     }
 }

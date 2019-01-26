@@ -46,4 +46,27 @@ public class PlayerController : MonoBehaviour
 
         transform.LookAt(transform.position + moveDirection);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(Tags.DEATH_AREA))
+        {
+            gameObject.SetActive(false);
+        }
+        else if (other.CompareTag(Tags.WIN_AREA))
+        {
+            GameManager.Instance.airConsoleLogic.SendMessageToController(
+            GameManager.Instance.airConsoleLogic.GetDeviceID(),
+            "You win!"
+            );
+        }
+    }
+
+    private void OnDisable()
+    {
+        GameManager.Instance.airConsoleLogic.SendMessageToController(
+            GameManager.Instance.airConsoleLogic.GetDeviceID(),
+            "You died!"
+            );
+    }
 }
