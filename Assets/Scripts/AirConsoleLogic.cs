@@ -12,9 +12,12 @@ public class AirConsoleLogic : MonoBehaviour
 
     private void Awake()
     {
-        AirConsole.instance.onMessage += OnMessage;
-        AirConsole.instance.onConnect += OnConnect;
-        AirConsole.instance.onReady += OnReady;
+        if (AirConsole.instance != null)
+        {
+            AirConsole.instance.onMessage += OnMessage;
+            AirConsole.instance.onConnect += OnConnect;
+            AirConsole.instance.onReady += OnReady;
+        }
     }
 
     void OnConnect(int device_id)

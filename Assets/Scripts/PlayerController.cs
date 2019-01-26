@@ -37,6 +37,18 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        float inputX = Input.GetAxis("Horizontal");
+        float inputZ = Input.GetAxis("Vertical");
+
+        if(inputX != 0|| inputZ != 0)
+        {
+            float y = rb.velocity.y;
+
+            rb.velocity = new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed);
+
+            transform.LookAt(transform.position + new Vector3(inputX * moveSpeed, y, inputZ * moveSpeed));
+        }
+
         Vector3 moveDirection = new Vector3(horizontalValue, 0f, verticalValue);
 
         if (verticalValue != 0 || horizontalValue != 0)
