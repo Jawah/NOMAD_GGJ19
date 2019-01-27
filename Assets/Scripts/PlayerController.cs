@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     public GameObject spawnAnim;
 
     public AudioSource audioSource;
-    //public AudioClip deathSound;
     
     public Animator anim;
 
@@ -109,8 +108,6 @@ public class PlayerController : MonoBehaviour
 
             GameManager.Instance.uiHandler.CalculateNewUIValues();
 
-            //audioSource.clip = deathSound;
-            //audioSource.Play();
             Instantiate(deathAnim, gameObject.transform.position, Quaternion.Euler(-90, 0, 0));
             gameObject.SetActive(false);
         }
