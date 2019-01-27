@@ -5,4 +5,5 @@
     public static string WIN_AREA = "WinArea";
     public static string PLAYER = "Player";
     public static string BRIDGE = "Bridge";
+    public static string CHARACTER_MESH = "CharacterMesh";
 }
