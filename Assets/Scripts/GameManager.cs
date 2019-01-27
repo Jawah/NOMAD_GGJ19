@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NDream.AirConsole;
 using Newtonsoft.Json.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -31,5 +32,10 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.4f;
+    }
+
+    public void StartCutscene()
+    {
+        SceneManager.LoadScene("EndSequence");
     }
 }

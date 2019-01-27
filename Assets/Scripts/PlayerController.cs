@@ -120,6 +120,8 @@ public class PlayerController : MonoBehaviour
                 playerId,
                 "Win"
                 );
+
+                GameManager.Instance.StartCutscene();
             }
         }
         else if (other.CompareTag(Tags.BRIDGE))
