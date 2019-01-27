@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
 
             //audioSource.clip = deathSound;
             //audioSource.Play();
-            deathAnim.SetActive(true);
+            Instantiate(deathAnim, gameObject.transform.position, Quaternion.Euler(-90, 0, 0));
             gameObject.SetActive(false);
         }
         else if (other.CompareTag(Tags.WIN_AREA))
