@@ -3583,6 +3583,70 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &179866808
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1400.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1 &182493878
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,6 +4781,70 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 09a9f31876aeab442a77a9fa2bdc3f11, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 491e4736ace44e846beec552abc436cf, type: 3}
+--- !u!1001 &228726391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1608
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &231523101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12566,6 +12694,70 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eca7f662642e2c44183ee08c961a207e, type: 3}
+--- !u!1001 &549045136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1649.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &550232012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15466,6 +15658,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 644147689}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &645026243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1721.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &650672601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15612,6 +15868,70 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 09a9f31876aeab442a77a9fa2bdc3f11, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 491e4736ace44e846beec552abc436cf, type: 3}
+--- !u!1001 &658563936
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1042.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &662780571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23746,6 +24066,70 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999797344}
   m_Mesh: {fileID: 4300000, guid: 3a343d533b4cb1b4f851ec6ede516482, type: 3}
+--- !u!1001 &1004658160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1291.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &1006364996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27009,6 +27393,70 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1140616155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1180.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &1141958375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29433,6 +29881,134 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220670971}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1221172793
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -952.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
+--- !u!1001 &1226324455
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1743.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &1228592701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43629,6 +44205,70 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b95ea9561e71ac64ea9231a336a29038, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6b2747161a035d44868ebe605a5056d, type: 3}
+--- !u!1001 &1727134272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -858
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &1729328927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51650,6 +52290,70 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1963140137
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1120.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &1963384680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52903,6 +53607,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 366840750978121610}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2021098272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -928.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &2021868507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54508,6 +55276,70 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2072942513}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2073318929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1849869984}
+    m_Modifications:
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 63.960114
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1458.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9733509
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010377668407659644, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9733499
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512499278847378175, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: m_Name
+      value: Pebble-Generator (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4377614934477658251, guid: 57424cb8a2e42da4da2e470fc922c682,
+        type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57424cb8a2e42da4da2e470fc922c682, type: 3}
 --- !u!1001 &2073809405
 PrefabInstance:
   m_ObjectHideFlags: 0
