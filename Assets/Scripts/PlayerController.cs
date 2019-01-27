@@ -11,6 +11,9 @@ public class PlayerController : MonoBehaviour
     public GameObject deathAnim;
     public GameObject spawnAnim;
 
+    public AudioSource audioSource;
+    //public AudioClip deathSound;
+    
     public Animator anim;
     
     private Rigidbody rb;
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        audioSource.GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -96,6 +100,9 @@ public class PlayerController : MonoBehaviour
                 "Dead"
                 );
             }
+
+            //audioSource.clip = deathSound;
+            //audioSource.Play();
             deathAnim.SetActive(true);
             gameObject.SetActive(false);
         }
