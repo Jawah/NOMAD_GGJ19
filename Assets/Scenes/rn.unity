@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5021,11 +5021,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5544089773576761583, guid: ad85bd9239bbf0c459448c5c87c45bb2,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 191113316}
     - target: {fileID: 5850230580374027548, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
       propertyPath: m_Name
@@ -5036,6 +5031,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5544089773576761583, guid: ad85bd9239bbf0c459448c5c87c45bb2,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 191113316}
     - target: {fileID: 5850230580374027549, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5121,6 +5121,11 @@ PrefabInstance:
       propertyPath: playerNumberText
       value: 
       objectReference: {fileID: 1446052500}
+    - target: {fileID: 9135823540733848401, guid: ad85bd9239bbf0c459448c5c87c45bb2,
+        type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 278e63f1c4e1e4e1e90b689d64193548, type: 3}
     - target: {fileID: 3816778585450749131, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
       propertyPath: m_Drag

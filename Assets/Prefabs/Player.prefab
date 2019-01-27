@@ -384,6 +384,7 @@ MonoBehaviour:
     type: 3}
   spawnAnim: {fileID: 1418992930392041899}
   audioSource: {fileID: 4438298451676116823}
+  deathSound: {fileID: 8300000, guid: 278e63f1c4e1e4e1e90b689d64193548, type: 3}
   anim: {fileID: 1165678241126023941}
   playerNumberText: {fileID: 1351209822163059785}
   playerId: 0
@@ -697,6 +698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IGJAM_Home_Char
       objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: 57faadcf4d0e7af48994376f86d6f61d, type: 3}
+      propertyPath: m_TagString
+      value: CharacterMesh
+      objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 57faadcf4d0e7af48994376f86d6f61d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -757,10 +762,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 47f0583dd14b44764b81e5111f010448, type: 2}
-    - target: {fileID: 100036, guid: 57faadcf4d0e7af48994376f86d6f61d, type: 3}
-      propertyPath: m_TagString
-      value: CharacterMesh
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57faadcf4d0e7af48994376f86d6f61d, type: 3}
 --- !u!137 &1165678241130347973 stripped
@@ -863,15 +864,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3.000002
       objectReference: {fileID: 0}
-    - target: {fileID: 7691167446530949694, guid: 7b8c5dd130c047641ad8d94edd74a96b,
-        type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7691167446530949695, guid: 7b8c5dd130c047641ad8d94edd74a96b,
         type: 3}
       propertyPath: m_RenderAlignment
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7691167446530949694, guid: 7b8c5dd130c047641ad8d94edd74a96b,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b8c5dd130c047641ad8d94edd74a96b, type: 3}
@@ -963,15 +964,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 7691167446530949694, guid: 7b8c5dd130c047641ad8d94edd74a96b,
-        type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7691167446530949695, guid: 7b8c5dd130c047641ad8d94edd74a96b,
         type: 3}
       propertyPath: m_RenderAlignment
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7691167446530949694, guid: 7b8c5dd130c047641ad8d94edd74a96b,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b8c5dd130c047641ad8d94edd74a96b, type: 3}
