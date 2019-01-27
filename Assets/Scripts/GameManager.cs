@@ -28,6 +28,6 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.15f;
+        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.4f;
     }
 }
