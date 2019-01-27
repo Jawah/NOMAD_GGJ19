@@ -8,6 +8,7 @@ TagManager:
   - DeathArea
   - WinArea
   - Bridge
+  - CharacterMesh
   layers:
   - Default
   - TransparentFX

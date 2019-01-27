@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    //[SerializeField] Renderer cloth1;
-    //[SerializeField] Renderer cloth2;
-    //[SerializeField] Renderer cloth3;
+    [SerializeField] Renderer colorRenderer;
 
     public GameObject deathAnim;
     public GameObject spawnAnim;
@@ -15,7 +14,9 @@ public class PlayerController : MonoBehaviour
     //public AudioClip deathSound;
     
     public Animator anim;
-    
+
+    [SerializeField] private Text playerNumberText;
+
     private Rigidbody rb;
 
     public int playerId;
@@ -31,14 +32,17 @@ public class PlayerController : MonoBehaviour
     {
         audioSource.GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
+        colorRenderer = GameObject.FindGameObjectWithTag("CharacterMesh").GetComponent<Renderer>();
     }
 
     private void Start()
     {       
         spawnAnim.SetActive(true);
-        //cloth1.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-        //cloth2.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
-        //cloth3.material.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+
+        playerNumberText.text = playerId.ToString();
+        
+        colorRenderer.materials[2].color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+        colorRenderer.materials[3].color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
     }
 
     public void MovePlayer(float x, float y)
