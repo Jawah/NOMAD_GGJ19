@@ -72,9 +72,9 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 10
-      aperture: 2.8
-      focalLength: 122
+      focusDistance: 17.51
+      aperture: 8.9
+      focalLength: 230
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
@@ -101,8 +101,8 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       bloom:
-        intensity: 0.41
-        threshold: 1.51
+        intensity: 0.54
+        threshold: 1.63
         softKnee: 0.69
         radius: 4
         antiFlicker: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
         tint: 0
         hueShift: 0
         saturation: 1
-        contrast: 1
+        contrast: 1.09
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -178,8 +178,8 @@ MonoBehaviour:
             - serializedVersion: 3
               time: 0
               value: 0.04000002
-              inSlope: 0.41810805
-              outSlope: 0.41810805
+              inSlope: 0.57995766
+              outSlope: 0.57995766
               tangentMode: 0
               weightedMode: 0
               inWeight: 0
@@ -213,8 +213,8 @@ MonoBehaviour:
               inWeight: 0
               outWeight: 0
             - serializedVersion: 3
-              time: 0.9411765
-              value: 1
+              time: 1
+              value: 0.9937107
               inSlope: 0.6681396
               outSlope: 0.6681396
               tangentMode: 0
@@ -233,9 +233,9 @@ MonoBehaviour:
             m_Curve:
             - serializedVersion: 3
               time: 0
-              value: 0.060000002
-              inSlope: 0.3083721
-              outSlope: 0.3083721
+              value: 0.050314486
+              inSlope: 0.0518484
+              outSlope: 0.0518484
               tangentMode: 0
               weightedMode: 0
               inWeight: 0
@@ -298,8 +298,8 @@ MonoBehaviour:
         e_CurrentEditingCurve: 0
         e_CurveY: 0
         e_CurveR: 0
-        e_CurveG: 0
-        e_CurveB: 1
+        e_CurveG: 1
+        e_CurveB: 0
   userLut:
     m_Enabled: 0
     m_Settings:
