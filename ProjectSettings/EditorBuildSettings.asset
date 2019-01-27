@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/UEW.unity
+    guid: fd8be5005d49e46a4b2939c13b34d704
+  - enabled: 1
+    path: Assets/Scenes/EndSequence.unity
+    guid: 1b4a7efbb39fd144abc9a8ac1889bcca
   m_configObjects: {}

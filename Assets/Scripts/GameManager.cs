@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.4f;
+        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.2f;
     }
 
     public void StartCutscene()
