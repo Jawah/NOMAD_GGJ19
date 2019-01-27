@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 {
     public AirConsoleLogic airConsoleLogic;
     public UIHandler uiHandler;
+    public GameObject startoCanvas;
 
     // Singleton GameManager Instance
     private static GameManager _instance;
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.3f;
+        startoCanvas.SetActive(false);
     }
 
     public void StartCutscene()
