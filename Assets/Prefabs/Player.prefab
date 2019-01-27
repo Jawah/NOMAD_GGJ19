@@ -384,7 +384,6 @@ MonoBehaviour:
     type: 3}
   spawnAnim: {fileID: 1418992930392041899}
   audioSource: {fileID: 4438298451676116823}
-  deathSound: {fileID: 8300000, guid: 278e63f1c4e1e4e1e90b689d64193548, type: 3}
   anim: {fileID: 1165678241126023941}
   playerNumberText: {fileID: 1351209822163059785}
   playerId: 0
@@ -515,7 +514,7 @@ GameObject:
   - component: {fileID: 5850230582029792949}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

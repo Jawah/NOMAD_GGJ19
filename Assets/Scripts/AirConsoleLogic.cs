@@ -57,7 +57,7 @@ public class AirConsoleLogic : MonoBehaviour
         }
 
         //Instantiate player prefab, store device id + player script in a dictionary
-        GameObject newPlayer = Instantiate(playerPrefab, transform.position + new Vector3(Random.Range(-10f, 10f), 2f, Random.Range(-10f, 10f)), transform.rotation) as GameObject;
+        GameObject newPlayer = Instantiate(playerPrefab, transform.position + new Vector3(Random.Range(-6f, 6f), 2f, Random.Range(95f, 105f)), transform.rotation) as GameObject;
         players.Add(deviceID, newPlayer.GetComponent<PlayerController>());
         newPlayer.GetComponent<PlayerController>().playerId = deviceID;
     }
