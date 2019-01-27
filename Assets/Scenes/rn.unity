@@ -1756,7 +1756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37d83ebce05ad74683fd3228dde9e7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  browserStartMode: 0
+  browserStartMode: 3
   controllerHtml: {fileID: 102900000, guid: 4dbd9ceb0712f453cbc7d553e9e38b49, type: 3}
   autoScaleCanvas: 1
 --- !u!4 &977459940
@@ -2844,7 +2844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1542466648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5029,7 +5029,7 @@ PrefabInstance:
     - target: {fileID: 5850230580374027548, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5544089773576761583, guid: ad85bd9239bbf0c459448c5c87c45bb2,
         type: 3}
@@ -5164,6 +5164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599661257388922700, guid: da3b5f5c5230def41827e61dd5087e58,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6599661257388922699, guid: da3b5f5c5230def41827e61dd5087e58,
         type: 3}
