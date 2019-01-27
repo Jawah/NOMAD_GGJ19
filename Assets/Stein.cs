@@ -17,7 +17,9 @@ public class Stein : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (amountOfPlayers == 1 && !middlePointReached)
+        int inCurrentPlayers = (int)(GameManager.Instance.airConsoleLogic.currentPlayers / 2 + 1);
+
+        if (amountOfPlayers >= inCurrentPlayers && !middlePointReached)
         {
             transform.position = Vector3.MoveTowards(transform.position, middlePoint.transform.position, speed);
         }

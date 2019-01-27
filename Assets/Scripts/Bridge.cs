@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Bridge : MonoBehaviour
 {
-    [SerializeField] int peopleCounter;
+    public int peopleCounter;
     [SerializeField] Text counterText;
 
     private void Start()

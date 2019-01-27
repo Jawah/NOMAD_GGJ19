@@ -32,13 +32,14 @@ public class PlayerController : MonoBehaviour
     {
         audioSource.GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
-        colorRenderer = GameObject.FindGameObjectWithTag("CharacterMesh").GetComponent<Renderer>();
+        //colorRenderer = GameObject.FindGameObjectWithTag("CharacterMesh").GetComponent<Renderer>();
     }
 
     private void Start()
     {       
         spawnAnim.SetActive(true);
 
+        //GameManager.Instance.airConsoleLogic.currentPlayers++;
         playerNumberText.text = playerId.ToString();
         
         colorRenderer.materials[2].color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
@@ -104,6 +105,9 @@ public class PlayerController : MonoBehaviour
                 "Dead"
                 );
             }
+            GameManager.Instance.airConsoleLogic.currentPlayers--;
+
+            GameManager.Instance.uiHandler.CalculateNewUIValues();
 
             //audioSource.clip = deathSound;
             //audioSource.Play();
@@ -129,6 +133,7 @@ public class PlayerController : MonoBehaviour
                 bridgeCollision = true;
             }
 
+            StartCoroutine(GameManager.Instance.uiHandler.SetChangableStatus());
             StartCoroutine(CollisionTimer());
         }
     }
