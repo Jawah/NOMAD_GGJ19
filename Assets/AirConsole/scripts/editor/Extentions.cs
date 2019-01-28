@@ -132,11 +132,7 @@ namespace NDream.AirConsole.Editor {
 
 		public static string GetLocalAddress () {
 
-			string localIP = "172.18.34.23";
-  			
-			if (localIP.Contains("172.18.34.23")) {
-				return localIP;
-			}
+			string localIP = "";
 
 			foreach (IPAddress ip in Dns.GetHostEntry(Dns.GetHostName()).AddressList) {
                 
