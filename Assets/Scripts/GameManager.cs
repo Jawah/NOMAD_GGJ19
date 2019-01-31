@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.3f;
+        GameObject.Find("Tiles").GetComponent<TileMover>().moveSpeed = 0.2f;
         startoCanvas.SetActive(false);
     }
 
